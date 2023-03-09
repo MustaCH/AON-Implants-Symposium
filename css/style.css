@@ -4,7 +4,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Anton, sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 /*--ENCABEZADO--*/
@@ -17,7 +17,6 @@ header {
 #return {
   position: fixed;
   top: 3%;
-  width: 15%;
   margin-left: 1%;
   transition: transform 300ms ease-out;
 }
@@ -27,7 +26,8 @@ header {
 }
 
 #date {
-  font-family: Roboto Thin, sans-serif;
+  font-family: "Roboto" Thin, sans-serif;
+  font-size: 1.4rem;
   letter-spacing: 1.7px;
 }
 
@@ -41,7 +41,7 @@ header {
 }
 
 #subtitle {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.8rem;
   letter-spacing: 5px;
   position: relative;
@@ -49,10 +49,12 @@ header {
 }
 
 #ce-credits {
+  display: block;
   width: 10%;
   position: absolute;
   left: 68%;
   top: 45%;
+  transform: translate(45%, 32%, 15%, 68%);
 }
 
 .aro-1 {
@@ -77,7 +79,7 @@ header {
 /*--INTERMEDIO--*/
 
 #intermediate {
-  font-family: Roboto Thin, sans-serif;
+  font-family: "Roboto" Thin, sans-serif;
   font-size: 2rem;
   margin-bottom: 0%;
 }
@@ -90,13 +92,13 @@ header {
 }
 
 #location-sub {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 1.5px;
   font-size: 1.4rem;
 }
 
 #location-dir {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 3px;
   font-size: 1rem;
 }
@@ -125,18 +127,22 @@ header {
   background-color: #182256;
 }
 
-#orator-1 {
+/*#orator-1 {
   background-color: #5c32ea;
 }
 
 #orator-2 {
+  background-color: #5c32ea;
+}*/
+
+.card-body {
   background-color: #5c32ea;
 }
 
 /*--PROGRAM--*/
 
 #program {
-  font-family: Roboto Thin, sans-serif;
+  font-family: "Roboto" Thin, sans-serif;
   font-size: 1.5rem;
   list-style-image: url("../img/ul-ico.png");
 }
@@ -153,7 +159,7 @@ header {
 }
 
 #workshop-tit {
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 
 .workshop img {
@@ -162,7 +168,7 @@ header {
 }
 
 .workshop p {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   position: absolute;
   top: 50%;
@@ -200,12 +206,16 @@ header {
 /*--FOOTER--*/
 
 footer {
-  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2%;
 }
 
 footer div a {
   color: white;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-top: 2%;
 }
 
 /*==========================*/
@@ -243,7 +253,7 @@ footer div a {
   }
 
   #date {
-    font-family: Roboto Thin;
+    font-family: "Roboto" Thin;
     font-size: 0.8rem;
     margin-bottom: 4%;
     padding: 0% 4% 0% 4%;
@@ -259,7 +269,7 @@ footer div a {
   }
 
   #subtitle {
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 0.8rem;
     letter-spacing: 8px;
     position: relative;
@@ -295,7 +305,7 @@ footer div a {
   /*--INTERMEDIO--*/
 
   #intermediate {
-    font-family: Roboto Thin, sans-serif;
+    font-family: "Roboto" Thin, sans-serif;
     font-size: 1.2rem;
     margin: 0%;
   }
@@ -308,13 +318,13 @@ footer div a {
   }
 
   #location-sub {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 1.5px;
     font-size: 1rem;
   }
 
   #location-dir {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 3px;
     font-size: 0.7rem;
   }
@@ -384,7 +394,7 @@ footer div a {
   }
 
   #workshop-tit {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
   }
 
   .workshop img {
@@ -393,7 +403,7 @@ footer div a {
   }
 
   .workshop p {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1rem;
     position: absolute;
     top: 50%;
@@ -432,10 +442,14 @@ footer div a {
 
   footer {
     padding: 15%;
+    flex-direction: column;
   }
 
   footer div a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     color: white;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 }
