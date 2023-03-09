@@ -19,6 +19,11 @@
     <!--=============------ENCABEZADO------==============-->
     <!--===================================================-->
     <header class="d-flex flex-column justify-items-center">
+      <img src="img/ce-credits.png" id="ce-credits" alt="ce-credits" />
+      <img src="img/aro-1.png" class="aro-1" alt="">
+      <img src="img/aro-2.png" class="aro-2" alt="">
+      <img src="img/aro-3.png" class="aro-3" alt="">
+      <a href="https://aonimplants.us/"><button type="button" class="btn btn-dark rounded-pill p-2" id="return">＜ Return to www.aonimplants.us</button></a>
       <img
         id="logo-AoN"
         class="mx-auto d-block mb-5"
@@ -26,27 +31,27 @@
         alt="logo-AoN"
       />
       <div class="text-center d-flex flex-column justify-content-center">
-        <p class="text-light fs-4">
+        <p class="text-light fs-4" id="date">
           APRIL 22, 2023 - <b>DOUBLETREE BY HILTON MIAMI DORAL</b>
         </p>
         <div class="d-flex justify-content-center">
-          <h1 class="text-start text-light ps-3 title display-1">
+          <h1 class="text-start text-light ps-3 title">
             AON IMPLANTS <br />
             MASTERCLASS <br />
             WORKSHOP
           </h1>
         </div>
-        <h2 class="text-light fs-2 fw-bold mt-3 display-4" id="subtitle">
+        <h2 class="text-light fw-bold mt-3" id="subtitle">
           INNOVATION IN IMPLANT-PROSTHESIS
         </h2>
       </div>
-      <!--<img src="img/ce-credits.png" class="ce-credits" alt="" />-->
+
     </header>
     <!--===================================================-->
     <!--=============-------INTERMEDIO-------==============-->
     <!--===================================================-->
     <div class="bg-dark">
-      <p class="text-center text-light fs-3 fst-italic pt-5 pb-5">
+      <p class="text-center text-light fs-3 fst-italic pt-5 pb-5" id="intermediate">
         "The new trend in bone preservation that many dentists swear by"
       </p>
     </div>
@@ -54,18 +59,11 @@
     <!--=============----------HOTEL---------==============-->
     <!--===================================================-->
     <section class="d-flex flex-column justify-content-center pb-5 pt-5">
-      <h2 class="text-center fs-1 fw-bold mt-5">LOCATION</h2>
-      <h3 class="text-center fw-light">DOUBLETREE BY HILTON MIAMI DORAL</h3>
-      <p class="text-center fs-5 fw-light">
+      <h2 class="text-center fw-bold mt-5 text-black" id="location-tit">LOCATION</h2>
+      <h3 class="text-center fw-light mb-0 text-black" id="location-sub">DOUBLETREE BY HILTON MIAMI DORAL</h3>
+      <p class="text-center fw-light mt-0 text-black" id="location-dir">
         10250 NW 19th Street Doral, Florida, 33172​
       </p>
-      <!---<div class="d-flex justify-content-center mt-4 mb-5">
-        <img
-          src="img/Hotel DoubleTree.jpg"
-          class="hotel-img img-fluid w-60"
-          alt="Hotel DoubleTree"
-        />
-      </div>-->
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div
@@ -119,7 +117,7 @@
       <div class="container pt-5 pb-5">
         <div class="row pt-5 pb-5">
           <div class="col"><img src="img/abstract.png" alt="" /></div>
-          <p class="text-light col fs-5">
+          <p class="text-light col fs-5 mt-5">
             The biggest fear that exists today when placing implants is how long
             that implant will last in the mouth. We have had the false belief
             that peri-implant bone loss is inevitable. The etiology of
@@ -156,54 +154,39 @@
     <!--=============--------ORADORES--------==============-->
     <!--===================================================-->
     <section
-      class="d-flex flex-row justify-content-evenly pt-5 pb-5"
+      class="d-flex justify-content-evenly pt-5 pb-5 bg-body-secondary"
       id="orators"
     >
-      <div class="card bg-dark">
-        <a href=""
-          ><img
-            src="img/Dr. Ismael (Foto Evento_900x900).png"
-            class="fit-content"
-            alt="Dr. Ismael Khouly DDS, MS, PhD"
-        /></a>
-        <div class="card-body">
-          <a href="#" class="text-decoration-none"
-            ><p class="text-center">Dr. Ismael Khouly DDS, MS, PhD</p></a
-          >
-        </div>
+    <div class="card orator mt-5" id="orator-1" style="width: 18rem;">
+      <a href=""><img src="img/Dr. Ismael (Foto Evento_900x900).png" class="card-img-top" alt="Dr. Ismael Khouly DDS, MS, PhD"></a>
+      <div class="card-body">
+        <a href="" class="text-decoration-none"><p class="card-text text-center text-light fw-bold fs-5">Dr. Ismael Khouly DDS, MS, PhD</p></a>
       </div>
-      <div class="card bg-dark">
-        <a href=""
-          ><img
-            src="img/Dr. Miselli (Foto Evento2_transp).png"
-            alt="Dr. Alberto Miselli, DDS"
-        /></a>
-        <div class="card-body">
-          <a href="#" class="text-decoration-none">
-            <p class="text-center text-decoration-none">
-              Dr. Alberto Miselli, DDS
-            </p></a
-          >
-        </div>
+    </div>
+    <div class="card orator mt-5" id="orator-2" style="width: 18rem;">
+      <a href=""><img src="img/Dr. Miselli (Foto Evento2_transp).png" class="card-img-top" alt="Dr. Alberto Miselli, DDS"></a>
+      <div class="card-body">
+        <a href="" class="text-decoration-none"><p class="card-text text-center text-light fw-bold fs-5">Dr. Alberto Miselli, DDS</p></a>
       </div>
+    </div>
     </section>
     <!--===================================================-->
     <!--=============--------PROGRAMA--------==============-->
     <!--===================================================-->
     <section class="d-flex flex-column bg-body-secondary">
-      <h2 class="text-center display-1 mt-5">THE PROGRAM</h2>
+      <h2 class="text-center display-3 mt-5 text-black">THE PROGRAM</h2>
       <div class="align-self-center mt-3 mb-5">
-        <ul class="fs-4">
-          <li>8:30 / 9:00 - Breakfast</li>
+        <ul class="fs-4 text-black" id="program">
+          <li class="inter">8:30 / 9:00 - Breakfast</li>
           <li>
             9:00 / 10:30 - Simplifying crestal bone stability (Dr. Ismael Khouly
             DDS, MS, PhD)
           </li>
-          <li>10:30 / 10:45 - Break</li>
+          <li class="inter">10:30 / 10:45 - Break</li>
           <li>10:45 / 12:15 - Umbrella Concept (Dr. Alberto Miselli, DDS)</li>
-          <li>12:15 / 01:00 - Lunch</li>
+          <li class="inter">12:15 / 01:00 - Lunch</li>
           <li>1:00 / 2:15 - Guest speaker</li>
-          <li>2:15 / 2:30 - Break</li>
+          <li class="inter">2:15 / 2:30 - Break</li>
           <li>2:30 / 4:30 - Hands-on Workshop</li>
         </ul>
       </div>
@@ -214,19 +197,19 @@
     <section
       class="d-flex flex-column justify-content-center bg-body-secondary pt-5 pb-5"
     >
-      <h2 class="text-center display-5 fw-bold mt-5 mb-5">2 WORKSHOP</h2>
-      <div class="d-flex flex-row justify-content-evenly">
-        <div class="workshop">
+      <h2 class="text-center display-5 fw-bold mt-5 mb-2 text-black" id="workshop-tit">2 WORKSHOP</h2>
+      <div class="d-flex justify-content-center">
+        <div class="workshop d-flex justify-content-center">
           <img src="img/Workshop_1.png" alt="Workshop_1" class="mt-5 mb-5" />
-          <p class="fw-bold fs-3 text-light">
-            Can we achieve zero bone loss around implants? (Dr. Ismael Khouly
+          <p class="fw-bold fs-3 text-light text-uppercase">
+            Can we achieve zero bone loss around implants? <br> (Dr. Ismael Khouly
             DDS, MS, PhD)
           </p>
         </div>
-        <div class="workshop">
+        <div class="workshop d-flex justify-content-center">
           <img src="img/Workshop_2.png" alt="Workshop_2" class="mt-5 mb-5" />
-          <p class="fw-bold fs-3 text-light">
-            How to avoid the Marginal bone loss in implants (Dr. Alberto
+          <p class="fw-bold fs-3 text-light text-uppercase">
+            How to avoid the Marginal bone loss in implants <br> (Dr. Alberto
             Miselli, DDS)
           </p>
         </div>
@@ -239,14 +222,21 @@
       <h2 class="text-light text-center">
         PARTICIPATE IN THE MASTERCLASS / WORKSHOP
       </h2>
-      <p class="text-light text-center">
-        Early bird registrations until 03/31 $250.00 Registrations from 04/01
-        $290.00
+      <p class="text-light text-center fs-5">
+        Early bird registrations <b>03/31 $250.00</b> Registrations <b>from 04/01
+          $290.00</b> 
       </p>
-      <a href="https://event.aonimplants.us/register_here"
-        ><button class="btn btn-outline-light">REGISTER NOW</button></a
+      <a href="https://event.aonimplants.us/register_here" class="d-flex justify-content-center text-decoration-none"
+        ><button class="btn btn-outline-light fst-italic">REGISTER NOW</button></a
       >
     </section>
+    <!--===================================================-->
+    <!--=============---------FOOTER---------==============-->
+    <!--===================================================-->
+    <footer class="bg-black d-flex flex-column justify-content-center">
+      <div class="d-flex justify-content-center"><img src="img/logo-AoN.png" alt=""></div>   
+      <div class="d-flex justify-content-center mt-4"><a href="https://aonimplants.us/" class="text-decoration-none text-center">https://aonimplants.us/</a></div>  
+    </footer>
     <!--===================================================-->
     <!--=============------FIN DE BODY-------==============-->
     <!--===================================================-->

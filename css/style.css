@@ -1,26 +1,125 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: Anton;
+}
+
 /*--ENCABEZADO--*/
 
 header {
   background-image: url("../img/bg.jpg");
-  padding: 10% 0% 10% 0%;
+  padding: 6% 0% 10% 0%;
+}
+
+#return {
+  position: absolute;
+  top: 3%;
+  width: 15%;
+  margin-left: 1%;
+  transition: transform 300ms ease-out;
+}
+
+#return:hover {
+  transform: translate(0px, 0px) scale(0.9, 0.9);
+}
+
+#date {
+  font-family: Roboto Thin;
+  letter-spacing: 1.7px;
 }
 
 .title {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: relative;
+  font-size: 7rem;
+  line-height: 125px;
   box-shadow: -30px 0px 0px 0px rgba(255, 255, 255, 1);
   -webkit-box-shadow: -30px 1px 0px -1px rgba(255, 255, 255, 1);
   -moz-box-shadow: -30px 1px 0px -1px rgba(255, 255, 255, 1);
 }
 
 #subtitle {
-  letter-spacing: 0.9px;
+  font-family: Roboto;
+  font-size: 1.8rem;
+  letter-spacing: 5px;
+  position: relative;
   padding: 0% 5% 0% 5%;
+}
+
+#ce-credits {
+  width: 10%;
+  position: absolute;
+  left: 68%;
+  top: 45%;
+}
+
+.aro-1 {
+  position: absolute;
+  left: 5%;
+  top: 60%;
+}
+
+.aro-2 {
+  position: absolute;
+  left: 84%;
+  top: 2%;
+}
+
+.aro-3 {
+  width: 12%;
+  position: absolute;
+  top: 70%;
+  left: 23%;
+}
+
+/*--INTERMEDIO--*/
+
+#intermediate {
+  font-family: Roboto Thin;
+}
+
+/*--HOTEL--*/
+
+#location-tit {
+  letter-spacing: 1.5px;
+  font-size: 4.5rem;
+}
+
+#location-sub {
+  font-family: Roboto;
+  letter-spacing: 1.5px;
+  font-size: 1.4rem;
+}
+
+#location-dir {
+  font-family: Roboto;
+  letter-spacing: 3px;
+  font-size: 1rem;
 }
 
 /*--ORADORES--*/
 
 #orators {
   background-color: #182256;
+}
+
+#orator-1 {
+  background-color: #5c32ea;
+}
+
+#orator-2 {
+  background-color: #5c32ea;
+}
+
+/*--PROGRAM--*/
+
+#program {
+  font-family: Roboto Thin;
+  list-style-image: url("../img/ul-ico.png");
+}
+
+.inter {
+  list-style-image: url("../img/ul-ico-2.png");
 }
 
 /*--WORKSHOP--*/
@@ -30,7 +129,16 @@ header {
   position: relative;
 }
 
+#workshop-tit {
+  font-family: Roboto;
+}
+
+.workshop img {
+  width: 75%;
+}
+
 .workshop p {
+  font-family: Roboto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -41,4 +149,32 @@ header {
 
 #register {
   background-color: #182256;
+  padding: 0% 0% 5% 0%;
+}
+
+#register h2 {
+  font-size: 3rem;
+  margin: 5% 0% 5% 0%;
+}
+
+#register a {
+  width: 50%;
+  margin-top: 5%;
+}
+
+#register button {
+  border-color: #5c32ea;
+  font-size: 1.2rem;
+  padding: 2% 6% 2% 6%;
+}
+
+/*--FOOTER--*/
+
+footer {
+  padding: 5%;
+}
+
+footer div a {
+  color: white;
+  font-family: Roboto;
 }
