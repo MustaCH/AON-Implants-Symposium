@@ -1,8 +1,10 @@
+/*-- SETEO INICIAL --*/
+
 h1,
 h2,
 h3,
 h4 {
-  font-family: Anton;
+  font-family: Anton, sans-serif;
 }
 
 /*--ENCABEZADO--*/
@@ -13,7 +15,7 @@ header {
 }
 
 #return {
-  position: absolute;
+  position: fixed;
   top: 3%;
   width: 15%;
   margin-left: 1%;
@@ -25,7 +27,7 @@ header {
 }
 
 #date {
-  font-family: Roboto Thin;
+  font-family: Roboto Thin, sans-serif;
   letter-spacing: 1.7px;
 }
 
@@ -39,7 +41,7 @@ header {
 }
 
 #subtitle {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 1.8rem;
   letter-spacing: 5px;
   position: relative;
@@ -75,7 +77,8 @@ header {
 /*--INTERMEDIO--*/
 
 #intermediate {
-  font-family: Roboto Thin;
+  font-family: Roboto Thin, sans-serif;
+  font-size: 2rem;
 }
 
 /*--HOTEL--*/
@@ -86,15 +89,33 @@ header {
 }
 
 #location-sub {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   letter-spacing: 1.5px;
   font-size: 1.4rem;
 }
 
 #location-dir {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   letter-spacing: 3px;
   font-size: 1rem;
+}
+
+/*--ABSTRACT--*/
+
+#abstract {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#abstract div img {
+  width: 100%;
+  margin: 5% 5% 5% 5%;
+}
+
+#abstract p {
+  margin-top: 8%;
+  width: 50%;
 }
 
 /*--ORADORES--*/
@@ -114,7 +135,8 @@ header {
 /*--PROGRAM--*/
 
 #program {
-  font-family: Roboto Thin;
+  font-family: Roboto Thin, sans-serif;
+  font-size: 1.5rem;
   list-style-image: url("../img/ul-ico.png");
 }
 
@@ -135,10 +157,12 @@ header {
 
 .workshop img {
   width: 75%;
+  margin: 5% 0% 5% 0%;
 }
 
 .workshop p {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -155,6 +179,10 @@ header {
 #register h2 {
   font-size: 3rem;
   margin: 5% 0% 5% 0%;
+}
+
+#register p {
+  font-size: 1.5rem;
 }
 
 #register a {
@@ -176,5 +204,237 @@ footer {
 
 footer div a {
   color: white;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+}
+
+/*==========================*/
+/* MEDIA QUERIE MOBILE*/
+/*==========================*/
+
+@media (max-width: 600px) {
+  /*--ENCABEZADO--*/
+
+  header {
+    background-image: url("../img/bg-mobile.jpg");
+    padding: 6% 0% 15% 0%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #return-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #return {
+    position: initial;
+    width: 100%;
+    margin: 0%;
+    transition: transform 300ms ease-out;
+  }
+
+  #return:hover {
+    transform: translate(0px, 0px) scale(0.9, 0.9);
+  }
+
+  #logo-AoN {
+    margin-top: 20%;
+  }
+
+  #date {
+    font-family: Roboto Thin;
+    font-size: 0.8rem;
+    margin-bottom: 4%;
+    padding: 0% 4% 0% 4%;
+  }
+
+  .title {
+    position: relative;
+    font-size: 3rem;
+    line-height: 50px;
+    box-shadow: -15px 0px 0px 0px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: -15px 1px 0px -1px rgba(255, 255, 255, 1);
+    -moz-box-shadow: -15px 1px 0px -1px rgba(255, 255, 255, 1);
+  }
+
+  #subtitle {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    letter-spacing: 8px;
+    position: relative;
+    padding: 0% 6.3% 0% 6.3%;
+  }
+
+  #ce-credits {
+    width: 25%;
+    position: absolute;
+    left: 68%;
+    top: 83%;
+  }
+
+  .aro-1 {
+    position: absolute;
+    left: 5%;
+    top: 83%;
+    width: 10%;
+  }
+
+  .aro-2 {
+    display: none;
+  }
+
+  .aro-3 {
+    width: 25%;
+    position: absolute;
+    overflow: hidden;
+    top: 70%;
+    left: -50px;
+  }
+
+  /*--INTERMEDIO--*/
+
+  #intermediate {
+    font-family: Roboto Thin, sans-serif;
+    font-size: 1.2rem;
+    margin: 0%;
+  }
+
+  /*--HOTEL--*/
+
+  #location-tit {
+    letter-spacing: 1.5px;
+    font-size: 3rem;
+  }
+
+  #location-sub {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+  }
+
+  #location-dir {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 3px;
+    font-size: 0.7rem;
+  }
+
+  .hotel-img {
+    width: 90%;
+  }
+
+  /*--ABSTRACT--*/
+
+  #abstract {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 0%;
+  }
+
+  #abstract div img {
+    width: 40%;
+    margin: 0% 0% 0% 5%;
+  }
+
+  #abstract p {
+    margin-top: 0%;
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  /*--ORADORES--*/
+
+  #orators {
+    background-color: #182256;
+  }
+
+  #orator-1 {
+    background-color: #5c32ea;
+    margin: 0% 3% 0% 3%;
+  }
+
+  #orator-2 {
+    background-color: #5c32ea;
+    margin: 0% 3% 0% 3%;
+  }
+
+  /*--PROGRAM--*/
+
+  #program {
+    font-size: 1rem;
+    text-align: justify;
+  }
+
+  #program ul {
+    margin: 0% 3% 0% 3%;
+  }
+
+  /*--WORKSHOP--*/
+
+  #workshops {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .workshop {
+    overflow: hidden;
+    position: relative;
+  }
+
+  #workshop-tit {
+    font-family: Roboto;
+  }
+
+  .workshop img {
+    width: 90%;
+    margin: 0.5%;
+  }
+
+  .workshop p {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /*--REGISTRO--*/
+
+  #register {
+    padding: 15% 0% 15% 0%;
+  }
+
+  #register h2 {
+    font-size: 2rem;
+    margin: 5% 0% 5% 0%;
+  }
+
+  #register p {
+    font-size: 1rem;
+    margin: 0% 3% 0% 3%;
+  }
+
+  #register a {
+    width: 50%;
+    margin-top: 5%;
+  }
+
+  #register button {
+    border-color: #5c32ea;
+    font-size: 1.2rem;
+    padding: 2% 6% 2% 6%;
+  }
+
+  /*--FOOTER--*/
+
+  footer {
+    padding: 15%;
+  }
+
+  footer div a {
+    color: white;
+    font-family: Roboto, sans-serif;
+  }
 }
