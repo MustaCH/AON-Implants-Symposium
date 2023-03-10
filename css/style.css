@@ -19,6 +19,7 @@ header {
   top: 3%;
   margin-left: 1%;
   transition: transform 300ms ease-out;
+  z-index: 1;
 }
 
 #return:hover {
@@ -32,12 +33,25 @@ header {
 }
 
 #tit-container {
+  width: max-content;
   position: relative;
+  border: 8px solid #9d0000;
+}
+
+#circle-left {
+  position: relative;
+  border: 8px solid green;
+}
+
+#circle-rigth {
+  position: relative;
+  border: 8px solid yellow;
 }
 
 .title {
   font-size: 7rem;
   line-height: 125px;
+  z-index: 1;
   box-shadow: -30px 0px 0px 0px rgba(255, 255, 255, 1);
   -webkit-box-shadow: -30px 1px 0px -1px rgba(255, 255, 255, 1);
   -moz-box-shadow: -30px 1px 0px -1px rgba(255, 255, 255, 1);
@@ -45,39 +59,57 @@ header {
 
 #subtitle {
   font-family: "Roboto", sans-serif;
-  font-size: 1.8rem;
-  letter-spacing: 5px;
+  font-size: 1.5rem;
+  letter-spacing: 7.58px;
   position: relative;
-  padding: 0% 5% 0% 5%;
+  padding: 0%;
 }
 
 #circle-1 {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-color: #9d0000;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 20px solid #9d0000;
+  border-radius: 50%;
   top: 80%;
-  left: 25%;
+  left: 130%;
 }
 
 #circle-2 {
-  position: absolute;
+  position: relative;
   width: 80px;
   height: 80px;
-  top: 45%;
+  border: 10px solid #5830de;
+  border-radius: 50%;
+  top: 30%;
   left: 15%;
 }
 
 #circle-3 {
+  position: relative;
   width: 80px;
   height: 80px;
-  border-color: #9d0000;
+  border: 10px solid #9d0000;
+  border-radius: 50%;
+  top: -45%;
+  left: 85%;
 }
 
 #ce-credits {
-  position: absolute;
-  width: 50px;
-  height: 50px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  top: 50%;
+  left: -95%;
+  border: 20px solid #5830de;
+  border-radius: 50%;
+  background: #5830de;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 0%;
 }
 
 /*--INTERMEDIO--*/
