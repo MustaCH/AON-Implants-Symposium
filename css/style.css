@@ -35,17 +35,14 @@ header {
 #tit-container {
   width: max-content;
   position: relative;
-  border: 8px solid #9d0000;
 }
 
 #circle-left {
   position: relative;
-  border: 8px solid green;
 }
 
 #circle-rigth {
   position: relative;
-  border: 8px solid yellow;
 }
 
 .title {
@@ -63,6 +60,36 @@ header {
   letter-spacing: 7.58px;
   position: relative;
   padding: 0%;
+}
+
+#btn-book {
+  position: absolute;
+  top: 85%;
+  left: 75%;
+}
+
+#btn-book-now {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 1.3em;
+  font-weight: 800;
+  position: relative;
+  padding: 2%;
+  top: 95%;
+  left: 10%;
+  color: #fff;
+  width: 15em;
+  height: auto;
+  border: none;
+  background: #5c32ea;
+  box-shadow: 10px 10px 18px rgba(92, 50, 234, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+#btn-book-now:hover {
+  transform: translate(0px, 0px) scale(0.9, 0.9);
 }
 
 #circle-1 {
@@ -99,7 +126,7 @@ header {
   position: relative;
   width: 200px;
   height: 200px;
-  top: 50%;
+  top: 49%;
   left: -95%;
   border: 20px solid #5830de;
   border-radius: 50%;
