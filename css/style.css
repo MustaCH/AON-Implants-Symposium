@@ -31,8 +31,11 @@ header {
   letter-spacing: 1.7px;
 }
 
-.title {
+#tit-container {
   position: relative;
+}
+
+.title {
   font-size: 7rem;
   line-height: 125px;
   box-shadow: -30px 0px 0px 0px rgba(255, 255, 255, 1);
@@ -48,32 +51,33 @@ header {
   padding: 0% 5% 0% 5%;
 }
 
-#ce-credits {
-  display: block;
-  width: 10%;
+#circle-1 {
   position: absolute;
-  left: 68%;
+  width: 150px;
+  height: 150px;
+  border-color: #9d0000;
+  top: 80%;
+  left: 25%;
+}
+
+#circle-2 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
   top: 45%;
-  transform: translate(45%, 32%, 15%, 68%);
+  left: 15%;
 }
 
-.aro-1 {
-  position: absolute;
-  left: 5%;
-  top: 60%;
+#circle-3 {
+  width: 80px;
+  height: 80px;
+  border-color: #9d0000;
 }
 
-.aro-2 {
+#ce-credits {
   position: absolute;
-  left: 84%;
-  top: 2%;
-}
-
-.aro-3 {
-  width: 12%;
-  position: absolute;
-  top: 70%;
-  left: 23%;
+  width: 50px;
+  height: 50px;
 }
 
 /*--INTERMEDIO--*/
@@ -125,18 +129,7 @@ header {
 
 #orators {
   background-color: #182256;
-}
-
-/*#orator-1 {
-  background-color: #5c32ea;
-}
-
-#orator-2 {
-  background-color: #5c32ea;
-}*/
-
-.card-body {
-  background-color: #5c32ea;
+  font-family: "Roboto" Thin, sans-serif;
 }
 
 /*--PROGRAM--*/
@@ -163,17 +156,32 @@ header {
 }
 
 .workshop img {
-  width: 75%;
+  width: 50%;
   margin: 5% 0% 5% 0%;
+  border-radius: 45px;
+  border-bottom-right-radius: 120px;
+  -webkit-box-shadow: inset 0px 0px 50px 50px #000000;
+  box-shadow: inset 0px 0px 50px 50px #000000;
 }
 
 .workshop p {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
+}
+
+#workshop-1-txt {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 75%;
+  transform: translate(-50%, -55%);
+}
+
+#workshop-2-txt {
+  width: 40%;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -30%);
 }
 
 /*--REGISTRO--*/
@@ -209,13 +217,17 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 2%;
+  padding: 4%;
+}
+
+#logo-footer {
+  height: 3rem;
+  margin-right: 3rem;
 }
 
 footer div a {
   color: white;
   font-family: "Roboto", sans-serif;
-  margin-top: 2%;
 }
 
 /*==========================*/
