@@ -414,7 +414,7 @@ footer div a {
     overflow: hidden;
   }
   header {
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg-mobile.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -510,7 +510,7 @@ footer div a {
   }
   header {
     overflow: hidden;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg-mobile.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -740,7 +740,7 @@ footer div a {
   }
   header {
     overflow: hidden;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg-mobile.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -969,7 +969,7 @@ footer div a {
     overflow-x: hidden;
   }
   header {
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg-mobile.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -1195,7 +1195,7 @@ footer div a {
   }
   header {
     overflow: hidden;
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg-mobile.png");
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
