@@ -364,8 +364,9 @@ footer div a {
 
   #btn-book {
     position: absolute;
-    top: 98%;
-    left: 71.2%;
+    top: 85%;
+    left: 74%;
+    width: 77px;
   }
 
   #btn-book-now:hover {
@@ -373,7 +374,7 @@ footer div a {
   }
 
   #ce-credits {
-    top: 52%;
+    top: 40%;
     left: -5%;
   }
 
@@ -519,8 +520,8 @@ footer div a {
 
   #btn-book {
     position: absolute;
-    top: 72%;
-    left: 16%;
+    top: 71%;
+    left: 19%;
   }
 
   #btn-book-now {
@@ -973,7 +974,7 @@ footer div a {
   #btn-book {
     position: absolute;
     top: 77%;
-    left: 13%;
+    left: 16%;
   }
 
   #btn-book-now {
