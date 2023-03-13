@@ -255,13 +255,18 @@ header {
 }
 
 #register button {
-  border: 2px solid #5c32ea;
+  border: 2px solid #b084fe;
   border-radius: 0%;
   font-size: 1.5rem;
   font-weight: 550;
   font-family: "Roboto", sans-serif;
   letter-spacing: 4px;
   padding: 2% 6% 2% 6%;
+}
+
+#register button:hover {
+  color: white;
+  background-color: #b084fe;
 }
 
 /*--FOOTER--*/
