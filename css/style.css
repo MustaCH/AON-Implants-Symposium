@@ -341,10 +341,6 @@ footer div a {
     width: 100%;
   }
 
-  #tit-container {
-    margin-left: 5%;
-  }
-
   #btn-book {
     justify-content: center;
     padding-right: 0%;
@@ -385,12 +381,14 @@ footer div a {
 
   #circle-rigth {
     right: 25%;
-    margin-top: 385%;
-    margin-left: -40%;
+    margin-top: 570%;
+    margin-left: -90%;
+    overflow: hidden;
   }
 
   #circle-left {
     width: 12%;
+    overflow: hidden;
   }
 
   #circle-1 {
